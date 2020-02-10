@@ -1,0 +1,5 @@
+* Building
+~docker build -t connectiq .~
+
+* Running
+~docker run -t -i --rm --net=host --env="DISPLAY" --volume="$(HOME)/.Xauthority:/root/.Xauthority:rw" connectiq /bin/bash~
